@@ -3,15 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PuppyShop - AWS Project</title>
 </head>
 <body>
   <div class="container">
     <header>
       <h1>Projeto para site que simula sistema de pedidos</h1>
-      <p class="subtitle">Este projeto demonstra como criar uma infraestrutura básica na Amazon Web Services (AWS) utilizando 
-    <strong>Terraform</strong> para hospedar um site estático que simula uma página de hamburgueria com 
-    um formulário de pedidos.</p>
+      <p class="subtitle">Este projeto demonstra como criar uma infraestrutura básica na AWS utilizando 
+    <strong>Terraform</strong>. Hospedando um site que simula uma página de acoção de cahorros com 
+    um formulário.</p>
     </header>
     <section>
       <h2>📋 O que foi feito?</h2>
