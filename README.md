@@ -36,9 +36,9 @@
       <ul>
         <li>A aplicação foi empacotada em um <strong>container Docker</strong> para garantir portabilidade e consistência.</li>
         <li>Registrei a imagem no <strong>Amazon Elastic Container Registry (ECR)</strong>.</li>
-        <pre><code>aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin (SEU ID DA CONTA AWS).dkr.ecr.us-east-1.amazonaws.com
-        docker tag (SUA PASTA ONDE ESTÁ O CÓDIGO):latest (SEU ID DA CONTA AWS).dkr.ecr.us-east-1.amazonaws.com/(NOME DO ECR QUE VOCÊ CRIOU):latest
-        docker push (SEU ID DA CONTA AWS).dkr.ecr.us-east-1.amazonaws.com/(NOME DO ECR QUE VOCÊ CRIOU)</code></pre>
+        <pre><code>aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin (SEU ID DA CONTA AWS).dkr.ecr.us-east-1.amazonaws.com]
+          docker tag (SUA PASTA ONDE ESTÁ O CÓDIGO):latest (SEU ID DA CONTA AWS).dkr.ecr.us-east-1.amazonaws.com/(NOME DO ECR QUE VOCÊ CRIOU):latest
+          docker push (SEU ID DA CONTA AWS).dkr.ecr.us-east-1.amazonaws.com/(NOME DO ECR QUE VOCÊ CRIOU)</code></pre>
         <p>
         </p>
         <li>Configurei um serviço no <strong>Amazon ECS (Elastic Container Service)</strong> para rodar a aplicação.</li>
