@@ -4,69 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PuppyShop - AWS Project</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      color: #333;
-      background-color: #f9f9f9;
-    }
-    .container {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 20px;
-      background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-    header {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    h1 {
-      color: #0073e6;
-    }
-    .subtitle {
-      color: #555;
-    }
-    h2 {
-      color: #444;
-      border-bottom: 2px solid #0073e6;
-      padding-bottom: 5px;
-      margin-bottom: 15px;
-    }
-    h3 {
-      color: #0073e6;
-      margin-top: 20px;
-    }
-    ul {
-      margin: 10px 0;
-      padding-left: 20px;
-    }
-    ul li {
-      margin-bottom: 10px;
-    }
-    code {
-      background: #eef;
-      padding: 2px 5px;
-      border-radius: 3px;
-    }
-    a {
-      color: #0073e6;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      text-align: center;
-      margin-top: 20px;
-      padding-top: 20px;
-      border-top: 1px solid #ddd;
-    }
-  </style>
 </head>
 <body>
   <div class="container">
