@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PuppyShop - AWS Project</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -55,7 +54,7 @@
                 </ul>
             </div>
             <div class="step">
-                <h3>4️⃣ Frontend - Página Web (HTML/CSS/JavaScript):</h3>
+                <h3>4️⃣ Frontend - Página Web (HTML/CSS):</h3>
                 <ul>
                     <li>Criei uma interface simples que permite ao usuário:</li>
                     <ul>
@@ -74,7 +73,7 @@
         </section>
         <footer>
             <p>🚀 O projeto agora roda em um ambiente gerenciado pelo <strong>Amazon ECS</strong>, com aplicação containerizada garantindo maior portabilidade e escalabilidade.</p>
-            <p>📢 Espero que inspire outros desenvolvedores a explorar o mundo dos <strong>containers</strong> e <strong>cloud computing</strong>.</p>
+            <p>📢 Espero que curtam! Gravei um vídeo explicando o passo a passo de todo o processo, trazendo mais detalhes e insights sobre cada etapa. Fico muito contente em compartilhar esse                     conhecimento e contribuir para o aprendizado de outros desenvolvedores. O código está disponível para quem quiser explorar ou adaptar. Caso tenham dúvidas ou sugestões, será um                   prazer trocar ideias nos comentários. Obrigado!</p>
         </footer>
     </div>
 </body>
