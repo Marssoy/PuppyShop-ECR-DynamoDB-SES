@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PuppyShop - Filhotes de Raça</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(120deg, #a8edea, #fed6e3);
+            margin: 0;
+            padding: 0;
+            color: #444;
+        }
+
+        header {
+            background-color: #5a8dff;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 3.5rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 10px 0 0;
+        }
+
+        .catalog {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 40px 10px;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            text-align: center;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 15px 0 10px;
+            font-size: 1.5rem;
+            color: #5a8dff;
+        }
+
+        .card p {
+            margin: 0 20px 15px;
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .order-form {
+            max-width: 400px;
+            background-color: white;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .order-form h2 {
+            color: #5a8dff;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        .order-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .order-form select,
+        .order-form input,
+        .order-form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .order-form select:focus,
+        .order-form input:focus {
+            border-color: #5a8dff;
+            outline: none;
+        }
+
+        .order-form button {
+            background-color: #5a8dff;
+            color: white;
+            font-size: 1rem;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .order-form button:hover {
+            background-color: #4772cc;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Encontre Seu Novo Amigo!</h1>
+        <p>Os melhores filhotes de raças selecionadas esperando por você.</p>
+    </header>
+
+    <section class="catalog">
+        <div class="card">
+            <img src="https://www.cachorrosbrasil.com.br/wp-content/uploads/2015/02/7491-620x400.jpg" alt="Bull Terrier">
+            <h3>Bull Terrier</h3>
+            <p>Filhotes carinhosos e cheios de energia. Preço: R$ 2.000,00</p>
+        </div>
+        <div class="card">
+            <img src="https://img.olx.com.br/images/98/985418220480562.jpg" alt="Golden Retriever">
+            <h3>Golden Retriever</h3>
+            <p>Companheiros leais e brincalhões. Preço: R$ 3.000,00</p>
+        </div>
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/70/eb/f1/70ebf1eda87d612c591e1249cf18889e.jpg" alt="Husky Siberiano">
+            <h3>Husky Siberiano</h3>
+            <p>Filhotes aventureiros e cheios de estilo. Preço: R$ 2.500,00</p>
+        </div>
+    </section>
+
+    <div class="order-form">
+        <h2>Reserve Seu Filhote</h2>
+        <form action="/submit_order" method="POST">
+            <label for="puppy">Escolha a raça:</label>
+            <select id="puppy" name="puppy" required>
+                <option value="Bull Terrier">Bull Terrier</option>
+                <option value="Golden Retriever">Golden Retriever</option>
+                <option value="Husky Siberiano">Husky Siberiano</option>
+            </select>
+
+            <label for="quantity">Quantidade:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+
+            <label for="name">Seu Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+            <button type="submit">Fazer Pedido</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 PetShop - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
