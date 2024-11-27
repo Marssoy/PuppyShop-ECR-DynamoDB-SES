@@ -13,10 +13,8 @@
     <strong>Terraform</strong> para hospedar um site estático que simula uma página de hamburgueria com 
     um formulário de pedidos.</p>
     </header>
-
     <section>
       <h2>📋 O que foi feito?</h2>
-
       <h3>1️⃣ Infraestrutura na AWS com Terraform:</h3>
       <ul>
         <li>Criei toda a infraestrutura utilizando <strong>Terraform</strong>, incluindo:</li>
@@ -35,7 +33,6 @@
           </ul>
         </ul>
       </ul>
-
       <h3>2️⃣ Containerização e Deploy com Amazon ECS:</h3>
       <ul>
         <li>A aplicação foi empacotada em um <strong>container Docker</strong> para garantir portabilidade e consistência.</li>
@@ -43,7 +40,6 @@
         <li>Configurei um serviço no <strong>Amazon ECS (Elastic Container Service)</strong> para rodar a aplicação.</li>
         <li>A infraestrutura gerenciada pelo ECS garante alta disponibilidade e escalabilidade.</li>
       </ul>
-
       <h3>3️⃣ Backend com Python e Flask:</h3>
       <ul>
         <li>Desenvolvi uma aplicação <strong>Flask</strong> que:</li>
@@ -53,7 +49,6 @@
           <li>Envia e-mails automáticos de confirmação utilizando o <strong>Amazon SES</strong>.</li>
         </ul>
       </ul>
-
       <h3>4️⃣ Frontend - Página Web (HTML/CSS):</h3>
       <ul>
         <li>Criei uma interface simples que permite ao usuário:</li>
@@ -62,14 +57,12 @@
           <li>Submeter os dados que são processados pelo backend.</li>
         </ul>
       </ul>
-
       <h3>5️⃣ E-mail de Confirmação Automático:</h3>
       <ul>
         <li>Utilizando o <strong>Amazon SES</strong>, configurei o envio de e-mails para notificar os clientes de que seu pedido foi registrado com sucesso.</li>
         <li>O e-mail inclui uma mensagem personalizada, informando que o pet está pronto para ser adotado.</li>
       </ul>
     </section>
-
     <footer>
       <h2>🚀 Resultado</h2>
       <p>O projeto agora roda em um ambiente gerenciado pelo <strong>Amazon ECS</strong>, com aplicação containerizada garantindo maior portabilidade e escalabilidade.</p>
