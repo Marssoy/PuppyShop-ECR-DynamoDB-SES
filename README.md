@@ -75,7 +75,7 @@ docker push <strong>(SEU ID DA CONTA AWS)</strong>.dkr.ecr.us-east-1.amazonaws.c
       <p>
       O projeto agora roda em um ambiente gerenciado pelo <strong>Amazon ECS</strong>, com aplicação containerizada garantindo maior portabilidade e escalabilidade.</p>
       <p>
-        <strong><a href="https://www.linkedin.com/posts/vinicius-marssoy_fala-rede-neste-post-vou-compartilhar-activity-7264328990557970434-P5aa?utm_source=share&utm_medium=member_desktop" target="_blank">
+        <strong><a href="https://www.linkedin.com/posts/vinicius-marssoy_aws-cloudcomputing-devops-activity-7267534685252063235-Vf1h?utm_source=share&utm_medium=member_desktop" target="_blank">
         Clique aqui para assistir o vídeo do passo a passo que postei no LinkedIn</a></strong>
       </p>
       <p>Espero que seja de grande ajuda! 😊</p>
