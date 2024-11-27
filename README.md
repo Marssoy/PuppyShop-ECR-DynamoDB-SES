@@ -7,7 +7,7 @@
 <body>
   <div class="container">
     <header>
-      <h1>Projeto para site que simula sistema de pedidos</h1>
+      <h1>Projeto para site que simula sistema de pedidos 🐶</h1>
       <p class="subtitle">Este projeto demonstra como criar uma infraestrutura básica na AWS utilizando 
     <strong>Terraform</strong>. Hospedando um site que simula uma página de acoção de cahorros com 
     um formulário.</p>
