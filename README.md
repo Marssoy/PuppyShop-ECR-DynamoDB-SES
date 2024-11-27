@@ -69,6 +69,7 @@ docker push <strong>(SEU ID DA CONTA AWS)</strong>.dkr.ecr.us-east-1.amazonaws.c
     </section>
     <footer>
       <h2>🚀 Resultado</h2>
+      <img src="Web-ECS.gif" alt="Fluxo de pedido no PuppyShop"
       <p>O projeto agora roda em um ambiente gerenciado pelo <strong>Amazon ECS</strong>, com aplicação containerizada garantindo maior portabilidade e escalabilidade.</p>
       <p>
         <strong><a href="https://www.linkedin.com/posts/vinicius-marssoy_fala-rede-neste-post-vou-compartilhar-activity-7264328990557970434-P5aa?utm_source=share&utm_medium=member_desktop" target="_blank">
