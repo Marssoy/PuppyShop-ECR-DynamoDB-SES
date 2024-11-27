@@ -71,9 +71,15 @@
                 </ul>
             </div>
         </section>
+         <hr>
         <footer>
-            <p>🚀 O projeto agora roda em um ambiente gerenciado pelo <strong>Amazon ECS</strong>, com aplicação containerizada garantindo maior portabilidade e escalabilidade.</p>
-            <p>📢 Espero que curtam! Gravei um vídeo explicando o passo a passo de todo o processo, trazendo mais detalhes e insights sobre cada etapa. Fico muito contente em compartilhar esse                     conhecimento e contribuir para o aprendizado de outros desenvolvedores. O código está disponível para quem quiser explorar ou adaptar. Caso tenham dúvidas ou sugestões, será um                   prazer trocar ideias nos comentários. Obrigado!</p>
+            <h2>🚀 Resultado</h2>
+            <p> O projeto agora roda em um ambiente gerenciado pelo <strong>Amazon ECS</strong>, com aplicação containerizada garantindo maior portabilidade e escalabilidade.</p>
+            <p><strong><a href="https://www.linkedin.com/posts/vinicius-marssoy_fala-rede-neste-post-vou-compartilhar-activity-7264328990557970434-P5aa?                                        utm_source=share&utm_medium=member_desktop" target="_blank">
+            Clique aqui para assistir o vídeo do passo a passo que postei no LinkedIn</a></strong>
+            </p>
+            <p>Espero que seja de grande ajuda! 😊
+            </p>
         </footer>
     </div>
 </body>
